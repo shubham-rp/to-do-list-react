@@ -1,5 +1,5 @@
 .header {
-  background-color: rgb(23, 23, 88);
+  background-color: teal;
   height: 64px;
   width: 100%;
   display: flex;
@@ -30,19 +30,20 @@
   height: 32px;
   width: 64px;
   background-color: azure;
-  color: rgb(18, 44, 129);
+  color: teal;
   font-size: 16px;
-  font-weight: 200;
+  font-weight: bolder;
   border-radius: 8px;
-  border: 2px solid rgb(18, 44, 129);
+  border: 2px solid teal;
   justify-content: center;
   align-items: center;
   cursor: pointer;
 }
 
 .button:hover {
-  background-color: rgb(18, 44, 129);
+  background-color: teal;
   color: azure;
+  font-weight: bolder;
 }
 
 .todoItem {
